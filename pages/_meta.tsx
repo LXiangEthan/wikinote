@@ -1,3 +1,5 @@
 export default {
-  index: 'My Homepage'
+  index: 'My Homepage',
+  about: 'about something',
+  
 }
