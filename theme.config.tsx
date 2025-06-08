@@ -12,12 +12,7 @@ const config: DocsThemeConfig = {
   docsRepositoryBase: 'https://github.com/LXiangEthan/wikinote',
   footer: {
     content: 'Ethan @ 2025 MIT',
-  },
-  i18n: [
-  { locale: 'en-US', name: 'English' },
-  { locale: 'zh', name: '中文' },
-  { locale: 'de', name: 'Deutsch' }
-  ]
+  }
 }
 
 export default config
