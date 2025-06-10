@@ -11,7 +11,15 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/LXiangEthan/wikinote',
   footer: {
-    content: 'Ethan @ 2025 MIT',
+    content: (
+      <span>
+        MIT {new Date().getFullYear()} ©{' '}
+        <a href="https://github.com/LXiangEthan" target="_blank">
+          Ethan
+        </a>
+        .
+      </span>
+    )
   }
 }
 
